@@ -27,7 +27,8 @@ public class EjerciciosCondicionales8 {
 		if((dia>=1&&dia<=31)&&(mes>=1&&mes<=12)&&año>=1) {
 			fecha = fechaDia+"/"+fechaMes+"/"+fechaAño;
 			JOptionPane.showMessageDialog(null, fecha);
-		}else {
+		}
+		else {
 			JOptionPane.showMessageDialog(null, "Fecha no valida");
 		}
 	}
