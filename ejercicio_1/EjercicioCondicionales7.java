@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 /*
  * numero entre 0 y 99999 y saber cuantos digitos tiene el numero colocado
  */
-public class EjercicioCondicional7 {
+public class EjercicioCondicionales7 {
 	public static void main(String[] args) {
 		int numero = Integer.parseInt(JOptionPane.showInputDialog("Ingresa un numero: "));
 		if(numero>0 || numero<=99999) {
