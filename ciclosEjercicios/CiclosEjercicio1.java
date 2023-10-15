@@ -8,12 +8,12 @@ import java.util.Scanner;
  */
 public class CiclosEjercicio1 {
 	public static void main(String[] args) {
-		int numero;
-		double res;
+		int numero, res;
+		
 		Scanner scanner = new Scanner(System.in);
 		do {
 			numero = scanner.nextInt();
-			res = Math.pow(numero,2);
+			res = (int) Math.pow(numero,2);
 			System.out.println(res);
 		}while(numero>0);
 	}
